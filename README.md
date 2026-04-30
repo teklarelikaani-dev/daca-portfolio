@@ -26,7 +26,8 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - **Visualiseerimine:** Power BI / Streamlit (tulemas...)
 - **Tööriistad:** Git, GitHub, VS Code
  
-## Kontaktc
+## Kontakt 
+    teklarelikaani@gmail.com
 
 
 
