@@ -34,7 +34,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - [Õppetund 2]
 
 ## Failid
-- week1sales&customersexploration.sql -- minu SQL päringud
+- 'week1sales&customersexploration.sql' -- minu SQL päringud
 - `week1_results_screenshot.png` -- tulemuste pilt
 
 ## Meeskonna töö
