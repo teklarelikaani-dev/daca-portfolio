@@ -14,7 +14,31 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Supabase seadistamine ✅
  
 ### Week 1: SQL Põhitõed
-- (tulemas...)
+# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+
+## Mida ma tegin   Kliendiandmete uurija (Customer Data Explorer)
+- Uurisin "Customers" tabelit SQL päringutega 
+- Leidsin
+    tabelis kokku 3150 klienti;
+    neist perekonnanimi puudu 0;
+    e-mail puudu 380 kliendil;
+    kokku e-maile 3150, unikaalseid 2640.
+    Kõige esimene registreerimine 2.jaanuar 2020, viimane registreerimine 27. veebruar 2025
+    Kliendid tulevad 12 linnast- Pärnu, Paide, Jõhvi, Tallinn, Narva,Võru, Viljandi,Haapsalu,Kuressaare,Rakvere, Tartu, Valga
+     Vigased andmed=vale tulemus. Erinevaid linnu on 12 aga näitab 54, kuna on kirjapilt on erinev.
+
+- Osalesin meeskonna andmemaastiku koostamisel
+
+## Peamised õpid
+- [Õppetund 1]
+- [Õppetund 2]
+
+## Failid
+- `week1_[tabel]_exploration.sql` -- minu SQL päringud
+- `week1_results_screenshot.png` -- tulemuste pilt
+
+## Meeskonna töö
+- [Link meeskonna Data Landscape slaidile]
  
 ### Week 2: SQL Andmete Puhastamine
 - (tulemas...)
