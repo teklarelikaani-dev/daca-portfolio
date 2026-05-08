@@ -16,7 +16,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 ### Week 1: SQL Põhitõed
 # Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
 
-## Mida ma tegin   Kliendiandmete uurija (Customer Data Explorer)
+## Mida ma tegin   Kliendiandmete uurijana (Customer Data Explorer)
 - Uurisin "Customers" tabelit SQL päringutega 
 - Leidsin
     tabelis kokku 3150 klienti;
