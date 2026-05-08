@@ -29,9 +29,8 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
 - Osalesin meeskonna andmemaastiku koostamisel
 
-## Peamised õpid
-- [Õppetund 1]
-- [Õppetund 2]
+## Peamised õppetunnid
+- Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
 
 ## Failid
 - [**week1sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e02005dd44540ad5a5172b6c1d3933ac9df6ee17/week1sales_customers_exploration.sql)-- minu SQL päringud
