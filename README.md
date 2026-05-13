@@ -13,9 +13,10 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - GitHub seadistamine ✅
 - Supabase seadistamine ✅
  
-## Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+## Week 1: SQL Basics -- UrbanStyle'i andmete uurimine
 
-   Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
+  - Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
+  - Duplikaatide tuvastamine (COUNT, DISTINCT)
    #### Peamised õppetunnid
 - Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
 
