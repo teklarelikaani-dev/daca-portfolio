@@ -61,7 +61,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
 ## Failid
 - [**week1sales_customers_exploration.sql**]()-- minu SQL päringud
-- [**week1_results_screenshot.png**]() -- tulemuste pilt
+- [**week2_results_screenshot.png**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eb40426bd8f42b271dfe2e3893be70353f50bf6/week2_results_screenshot.png.png) -- tulemuste pilt
 
 
 ## Meeskonna töö
