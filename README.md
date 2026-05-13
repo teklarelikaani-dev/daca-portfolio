@@ -9,14 +9,18 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
  
 ## Projektid
  
-### Week 0: Onboarding
+## Week 0: Onboarding
 - GitHub seadistamine ✅
 - Supabase seadistamine ✅
  
-### Week 1: SQL Põhitõed
-# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+## Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
 
-## Mida ma tegin   Kliendiandmete uurijana (Customer Data Explorer)
+   Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
+   #### Peamised õppetunnid
+- Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
+
+### Meeskonnatöö
+#### Mida ma tegin   Kliendiandmete uurijana (Customer Data Explorer)
 - Uurisin "Customers" tabelit SQL päringutega 
 - Leidsin
     tabelis kokku 3150 klienti;
@@ -27,18 +31,14 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
     Kliendid tulevad 12 linnast- Pärnu, Paide, Jõhvi, Tallinn, Narva,Võru, Viljandi,Haapsalu,Kuressaare,Rakvere, Tartu, Valga
      Vigased andmed=vale tulemus. Erinevaid linnu on 12 aga näitab 54, kuna on kirjapilt on erinev.
 
-- Osalesin meeskonna andmemaastiku koostamisel
-
-## Peamised õppetunnid
-- Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
-
-## Failid
+#### Failid
 - [**week1sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e02005dd44540ad5a5172b6c1d3933ac9df6ee17/week1sales_customers_exploration.sql)-- minu SQL päringud
 - [**week1_results_screenshot.png**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8b115a1372f1dc584d8bbdceecf1536adaa82665/week1_results_screenshot.png) -- tulemuste pilt
-
-
-## Meeskonna töö
+  
+ #### Osalesin meeskonna andmemaastiku koostamisel
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
+
+
  
 ### Week 2: SQL Andmete Puhastamine
 
