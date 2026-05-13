@@ -41,7 +41,32 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
  
 ### Week 2: SQL Andmete Puhastamine
-- (tulemas...)
+
+## Mida ma tegin Tooteandmete puhastajana (Product Data Cleaner)
+- Uurisin "Products" tabelit SQL päringutega 
+- Leidsin
+    Ridade arv 362
+    Duplikaatsed nimed 12 tootenime 2 korda
+    NULL nimi/hind 0
+    NULL omahind/kategooria 0
+    Loogilised vead (negatiivne hind, äärmuslik hind) 0
+    Ebajärjekindlad kategooriad 0
+    5 kategooriat - Aksessuaarid, Jalanõusid, Laste_riided, Meeste_riided, Naiste_riided
+    Asendasin eelnevalt väikese algustähega olnud kategooriate nimed suure algustähega
+  
+- Osalesin meeskonna andmemaastiku koostamisel
+
+## Peamised õppetunnid
+- Oluliste muudatuste tegemiseks kasutada esimesena test tabelit
+
+## Failid
+- [**week1sales_customers_exploration.sql**]()-- minu SQL päringud
+- [**week1_results_screenshot.png**]() -- tulemuste pilt
+
+
+## Meeskonna töö
+- [**Meeskonna Data Landscape slaid**]()
+ 
  
 ## Oskused
  
