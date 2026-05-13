@@ -63,7 +63,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
     Asendasin eelnevalt väikese algustähega olnud kategooriate nimed suure algustähega
   
 #### Failid
-- [**week1sales_customers_exploration.sql**]()-- minu SQL päringud
+- [**week2products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/03b9365e94ef3f6d389b4c86bf2d563ff1ffeae9/week2products_cleaning.sql)-- minu SQL päringud
 - [**week2_results_screenshot.png**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eb40426bd8f42b271dfe2e3893be70353f50bf6/week2_results_screenshot.png.png) -- tulemuste pilt
 
 
