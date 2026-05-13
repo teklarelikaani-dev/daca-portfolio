@@ -21,7 +21,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
 
 ### Meeskonnatöö
-#### Mida ma tegin   Kliendiandmete uurijana (Customer Data Explorer)
+#### Mida ma tegin Kliendiandmete uurijana (Customer Data Explorer)
 - Uurisin "Customers" tabelit SQL päringutega 
 - Leidsin
     tabelis kokku 3150 klienti;
@@ -41,9 +41,16 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
 
  
-### Week 2: SQL Andmete Puhastamine
+## Week 2: SQL Andmete Puhastamine
+- Duplikaatide tuvastamine ja sorteerimine (GROUP BY, HAVING, ROW_NUMBER)
+- NULL väärtuste mõistmine
+- Andmeformaadid ja tüübikonversioonid
+#### Peamised õppetunnid  
+- Oluliste muudatuste tegemiseks kasutada esmalt test tabelit
+- 
 
-## Mida ma tegin Tooteandmete puhastajana (Product Data Cleaner)
+### Meeskonnatöö
+#### Mida ma tegin Tooteandmete puhastajana (Product Data Cleaner)
 - Uurisin "Products" tabelit SQL päringutega 
 - Leidsin
     Ridade arv 362
@@ -55,20 +62,16 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
     5 kategooriat - Aksessuaarid, Jalanõusid, Laste_riided, Meeste_riided, Naiste_riided
     Asendasin eelnevalt väikese algustähega olnud kategooriate nimed suure algustähega
   
-- Osalesin meeskonna andmemaastiku koostamisel
-
-## Peamised õppetunnid
-- Oluliste muudatuste tegemiseks kasutada esimesena test tabelit
-
-## Failid
+#### Failid
 - [**week1sales_customers_exploration.sql**]()-- minu SQL päringud
 - [**week2_results_screenshot.png**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eb40426bd8f42b271dfe2e3893be70353f50bf6/week2_results_screenshot.png.png) -- tulemuste pilt
 
 
-## Meeskonna töö
+#### Osalesin meeskonna andmemaastiku koostamisel
 - [**Meeskonna Data Landscape slaid**]()
  
- 
+
+## Week 3. ........ 
 ## Oskused
  
 - **SQL:** PostgreSQL, Supabase
