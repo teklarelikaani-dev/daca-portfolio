@@ -68,7 +68,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
 
 #### Osalesin meeskonna andmemaastiku koostamisel
-- [**Meeskonna Data Landscape slaid**]()
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
  
 
 ## Week 3. ........ 
