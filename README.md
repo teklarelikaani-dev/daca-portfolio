@@ -72,6 +72,12 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
 ## Week 3. ........ 
 
+
+#### Failid
+- [**week3products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/19e73b37b04521426db3e83bdc75f2df09914def/week3products_sales_join.sql)-- minu SQL päringud
+- [**week3_results_screenshot**]() -- tulemuste pilt
+
+
 #### Osalesin meeskonna andmemaastiku koostamisel
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
 
