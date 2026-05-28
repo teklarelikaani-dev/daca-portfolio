@@ -14,23 +14,14 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Supabase seadistamine ✅
  
 ## Week 1: SQL Basics -- UrbanStyle'i andmete uurimine
-
   - Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
   - Duplikaatide tuvastamine (COUNT, DISTINCT)
    #### Peamised õppetunnid
 - Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
 
 ### Meeskonnatöö
-#### Mida ma tegin Kliendiandmete uurijana (Customer Data Explorer)
+#### Roll - Kliendiandmete uurija (Customer Data Explorer)
 - Uurisin "Customers" tabelit SQL päringutega 
-- Leidsin
-    tabelis kokku 3150 klienti;
-    neist perekonnanimi puudu 0;
-    e-mail puudu 380 kliendil;
-    kokku e-maile 3150, unikaalseid 2640.
-    Kõige esimene registreerimine 2.jaanuar 2020, viimane registreerimine 27. veebruar 2025
-    Kliendid tulevad 12 linnast- Pärnu, Paide, Jõhvi, Tallinn, Narva,Võru, Viljandi,Haapsalu,Kuressaare,Rakvere, Tartu, Valga
-     Vigased andmed=vale tulemus. Erinevaid linnu on 12 aga näitab 54, kuna on kirjapilt on erinev.
 
 #### Failid
 - [**week1sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e02005dd44540ad5a5172b6c1d3933ac9df6ee17/week1sales_customers_exploration.sql)-- minu SQL päringud
@@ -40,7 +31,6 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
 
- 
 ## Week 2: SQL Andmete Puhastamine
 - Duplikaatide tuvastamine ja sorteerimine (GROUP BY, HAVING, ROW_NUMBER)
 - NULL väärtuste mõistmine
@@ -49,29 +39,25 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Oluliste muudatuste tegemiseks kasutada esmalt test tabelit
   
 ### Meeskonnatöö
-#### Mida ma tegin Tooteandmete puhastajana (Product Data Cleaner)
+#### Roll - Tooteandmete puhastaja (Product Data Cleaner)
 - Uurisin "Products" tabelit SQL päringutega 
-- Leidsin
-    Ridade arv 362
-    Duplikaatsed nimed 12 tootenime 2 korda
-    NULL nimi/hind 0
-    NULL omahind/kategooria 0
-    Loogilised vead (negatiivne hind, äärmuslik hind) 0
-    Ebajärjekindlad kategooriad 0
-    5 kategooriat - Aksessuaarid, Jalanõusid, Laste_riided, Meeste_riided, Naiste_riided
-    Asendasin eelnevalt väikese algustähega olnud kategooriate nimed suure algustähega
   
 #### Failid
 - [**week2products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/03b9365e94ef3f6d389b4c86bf2d563ff1ffeae9/week2products_cleaning.sql)-- minu SQL päringud
 - [**week2_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3455d12b8b52790aade22ea1749a684f4a7f527f/week2_results_screenshot.pdf) -- tulemuste pilt
 
-
 #### Osalesin meeskonna andmemaastiku koostamisel
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
  
 
-## Week 3. ........ 
+## Week 3. SQL JOINs
+  - Andmete lugemine mitmest tabelist ja tabelite ühendamine (JOIN) 
+   #### Peamised õppetunnid
+- Vale JOIN-i tüübi valimine muudab päringu tulemust drastiliselt.
 
+### Meeskonnatöö
+#### Roll - Tooted + Inventuur (LEFT JOIN)
+- Müümata toodete ja inventuuri analüüs. Tabelid: products, sales, inventory
 
 #### Failid
 - [**week3products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/19e73b37b04521426db3e83bdc75f2df09914def/week3products_sales_join.sql)-- minu SQL päringud
@@ -81,6 +67,22 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 #### Osalesin meeskonna andmemaastiku koostamisel
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
 
+
+## Week 4. SQL SQL Agregatsioon
+  - Andmete lugemine mitmest tabelist ja tabelite ühendamine (JOIN) 
+   #### Peamised õppetunnid
+- Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
+
+### Meeskonnatöö
+#### Roll - Turunduskampaaniate ROI (Marketing Campaign Effectiveness)
+- Analüüsisin turunduskanalite efektiivsust. Tabelid: sales, customers, weblogs.
+
+#### Failid
+- [**week3products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/19e73b37b04521426db3e83bdc75f2df09914def/week3products_sales_join.sql)-- minu SQL päringud
+- [**week3_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/402820b6edc96dd4ae326df0c8bd3be7b99e7af7/week3_results_screenshot.pdf) -- tulemuste pilt
+
+#### Osalesin meeskonna andmemaastiku koostamisel
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
 
 ## Oskused
  
