@@ -78,11 +78,11 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Analüüsisin turunduskanalite efektiivsust. Tabelid: sales, customers, weblogs.
 
 #### Failid
-- [**week3products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/19e73b37b04521426db3e83bdc75f2df09914def/week3products_sales_join.sql)-- minu SQL päringud
-- [**week3_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/402820b6edc96dd4ae326df0c8bd3be7b99e7af7/week3_results_screenshot.pdf) -- tulemuste pilt
+- [**week4marketing_roi.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ff75632c72a825b148b42bbb473292a0ee6943df/week4marketing_roi.sql)-- minu SQL päringud
+- [**week4_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/402820b6edc96dd4ae326df0c8bd3be7b99e7af7/week3_results_screenshot.pdf) -- tulemuste pilt
 
 #### Osalesin meeskonna andmemaastiku koostamisel
-- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
+- [**Meeskonna Data Landscape slaid**]()
 
 ## Oskused
  
