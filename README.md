@@ -47,8 +47,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Andmeformaadid ja tüübikonversioonid
 #### Peamised õppetunnid  
 - Oluliste muudatuste tegemiseks kasutada esmalt test tabelit
-- 
-
+  
 ### Meeskonnatöö
 #### Mida ma tegin Tooteandmete puhastajana (Product Data Cleaner)
 - Uurisin "Products" tabelit SQL päringutega 
@@ -64,7 +63,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
   
 #### Failid
 - [**week2products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/03b9365e94ef3f6d389b4c86bf2d563ff1ffeae9/week2products_cleaning.sql)-- minu SQL päringud
-- [**week2_results_screenshot.png**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eb40426bd8f42b271dfe2e3893be70353f50bf6/week2_results_screenshot.png.png) -- tulemuste pilt
+- [**week2_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3455d12b8b52790aade22ea1749a684f4a7f527f/week2_results_screenshot.pdf) -- tulemuste pilt
 
 
 #### Osalesin meeskonna andmemaastiku koostamisel
