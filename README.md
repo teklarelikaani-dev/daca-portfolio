@@ -83,7 +83,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - [**week4_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ff75632c72a825b148b42bbb473292a0ee6943df/week4_results_screenshot.pdf) -- tulemuste pilt
 
 #### Osalesin meeskonna andmemaastiku koostamisel
-- [**Meeskonna Data Landscape slaid**]()
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
 
 ## Oskused
  
