@@ -97,6 +97,17 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
   
  [**week5_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/b39e3cf42552debe1f4e9f15c927d96a3bb91c2e/Week5_Visual_Design_PowerBI.png)
 
+## Week 6. Visualization Data
+  - Andmete visualiseerimine Power BI
+  - Data storytelling
+   #### Peamised õppetunnid
+- Vähem on rohkem.
+    
+### Meeskonnatöö
+#### Roll - Tallinna kaupluse analüüs
+- Analüüsisin SQL´iga Tallinna kauplust. Visualiseerisin Power BI´ga.
+  [**week6_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3292711a9ca78307a276861a4e7596399ac4cc38/Week6_Visual_Design_PowerBI.png)
+
 
  
 ## Oskused
