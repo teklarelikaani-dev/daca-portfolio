@@ -86,10 +86,15 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
 
 ## Week 5. Visualization Design
-
+  - Power BI ühendamine Supabase´iga
+  - Andmete visualiseerimine Power BI
+   #### Peamised õppetunnid
+- Õiged andmed loovad korrektsed graafikud.
+    
 ### Meeskonnatöö
 #### Roll - Müügikanalite efektiivsus
-
+- Analüüsisin SQL´iga müügikanalite efektiivsust ja klientide kasvu. Visualiseerisin Power BI´ga.
+  
  [**week5_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/b39e3cf42552debe1f4e9f15c927d96a3bb91c2e/Week5_Visual_Design_PowerBI.png)
 
 
