@@ -106,6 +106,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 ### Meeskonnatöö
 #### Roll - Tallinna kaupluse analüüs
 - Analüüsisin SQL´iga Tallinna kauplust. Visualiseerisin Power BI´ga.
+
   [**week6_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3292711a9ca78307a276861a4e7596399ac4cc38/Week6_Visual_Design_PowerBI.png)
 
 
