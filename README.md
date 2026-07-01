@@ -131,7 +131,7 @@ Analüüs viitas sellele, et ettevõtte laoseis võib olla oluliselt suurem kui 
 - Keskenduda suurema nõudlusega kategooriate (jalanõud ja meeste riided) varude optimeerimisele.
 
 #### AI kasutamine
-Kasutasin AI-d erinevate JOIN-tüüpide mõistmiseks ja päringute kontrollimiseks. Võrdlesin LEFT JOIN ja INNER JOIN tulemusi ning kontrollisin järeldused SQL päringute väljundite põhjal.
+Kasutasin AI-d erinevate JOIN-tüüpide kirjutamiseks, mõistmiseks ja päringute kontrollimiseks. Võrdlesin LEFT JOIN ja INNER JOIN tulemusi ning kontrollisin järeldused SQL päringute väljundite põhjal.
 
 #### Peamised õppetunnid
 - Vale JOIN-i tüübi valimine võib muuta analüüsi tulemusi oluliselt.
@@ -279,7 +279,7 @@ Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency
 - Kõige suurem risk on At Risk segment (20,83%), sest nende klientide kaotamine võib oluliselt vähendada tulevast käivet.
 
 #### AI kasutamine
-Kasutasin AI-d Pandase funktsioonide ja RFM arvutuste kontrollimiseks ning koodi optimeerimiseks. Kontrollisin kõik vahetulemused Jupyter Notebookis ning võrdlesin segmentide jaotust arvutatud RFM näitajatega.
+Kasutasin AI-d Pandase funktsioonide ja RFM arvutuste kontrollimiseks ning koodi kirjutamiseks. Kontrollisin kõik vahetulemused Jupyter Notebookis ning võrdlesin segmentide jaotust arvutatud RFM näitajatega.
 
 #### Peamised õppetunnid
 - Andmete ühendamine (merge) on kliendianalüüsi alus, sest võimaldab siduda ostud konkreetsete klientidega.
@@ -288,7 +288,7 @@ Kasutasin AI-d Pandase funktsioonide ja RFM arvutuste kontrollimiseks ning koodi
 - RFM analüüs aitab muuta toorandmed praktilisteks turundus- ja kliendihalduse otsusteks.
 
 #### Failid
-[**WEEK7_Python_RFM_analüüs**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/522b6a84771e3484de1a8b204b2caeb6ed2dd8d2/WEEK8_Python_RFM.py) - Python skript
+[**WEEK7_Python_RFM_analüüs**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/eed905905e2680e97a281431101805cb3910a189/WEEK8_Python_RFM.py) - Python skript
  
 ## Oskused
  
