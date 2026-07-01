@@ -42,7 +42,7 @@ Tutvusin UrbanStyle'i kliendiandmetega ning õppisin kasutama SQL päringuid and
 - Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
 - Duplikaatide tuvastamine (COUNT, DISTINCT)
 
-### Meeskonnatöö - Roll: Kliendiandmete uurija ( Customer Data Explorer )
+### Meeskonnatöö - Roll: Kliendiandmete uurija (Customer Data Explorer)
 
 Analüüsisin customers tabelit, et hinnata kliendiandmete kvaliteeti ning koostada ülevaade andmestikust.
 
@@ -60,7 +60,7 @@ Leidsin, et kliendiandmetes esineb puuduvaid ja duplikaatseid e-posti aadresse, 
 
 #### AI kasutamine
 
-Kasutasin ChatGPT-d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrollisin kõik tulemused iseseisvalt, võrreldes päringute väljundeid Supabase'i andmebaasis.
+Kasutasin AI´d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrollisin kõik tulemused iseseisvalt, võrreldes päringute väljundeid Supabase'i andmebaasis.
 
 #### Peamised õppetunnid
 
@@ -71,23 +71,51 @@ Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb S
 - [**WEEK1_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e54de9f223daea5405f11b48740e84738bea25ff/WEEK1_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
+## Week 2 – SQL Data Cleaning: UrbanStyle tooteandmete puhastamine
 
-## Week 2: SQL Andmete Puhastamine
+Puhastasin UrbanStyle'i tooteandmeid, et parandada andmete kvaliteeti enne müügi- ja laoseisu analüüsi. Keskendusin duplikaatide, NULL-väärtuste ja võimalike formaadivigade leidmisele.
+
+#### Kasutatud SQL teemad
 - Duplikaatide tuvastamine ja sorteerimine (GROUP BY, HAVING, ROW_NUMBER)
-- NULL väärtuste mõistmine
-- Andmeformaadid ja tüübikonversioonid
-#### Peamised õppetunnid  
-- Oluliste muudatuste tegemiseks kasutada esmalt test tabelit
+- NULL väärtusted
+- Andmetüüpide kontroll
+
+### Meeskonnatöö - Roll: Tooteandmete puhastaja (Product Data Cleaner)
+
+Analüüsisin products tabelit ning koostasin puhastamisraporti koos SQL skriptiga.
+
+#### Peamised tulemused
+- Kokku 362 toodet
+- 12 duplikaatset tootenime
+- 0 NULL väärtust toote nimes
+- 0 NULL väärtust kategoorias
+- 0 NULL jaehinnas
+- 0 NULL omahinnas
+- Loogilisi hinnavigu pole
+- 5 tootekategooriat
+
+#### Äriline järeldus
+
+Tooteandmete kvaliteet oli üldiselt hea, sest kriitilised väljad ei sisaldanud puuduvaid väärtusi. Suurimaks probleemiks olid 12 duplikaatset tootenime, mis võivad põhjustada ebatäpseid müügi-, lao- ja tooteanalüüse. Enne aruannete koostamist tuleks duplikaadid eemaldada või ühtlustada, et iga toode oleks süsteemis esindatud ainult ühe kirjena.
+
+#### AI kasutamine
+
+Kasutasin AI´d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise toetamiseks. Kontrollisin kõik tulemused iseseisvalt Supabase'i andmebaasis ning testisin päringuid enne muudatuste tegemist testkoopial.
+
+#### Peamised õppetunnid
+- Enne andmete muutmist tuleb alati töötada testtabeliga.
+- ROW_NUMBER() on tõhus viis duplikaatide leidmiseks.
+- Andmete puhastamine on usaldusväärsete analüüside eelduseks.
   
-### Meeskonnatöö
-#### Roll - Tooteandmete puhastaja (Product Data Cleaner)
-- Uurisin "Products" tabelit SQL päringutega 
+#### Failid
+WEEK2_products_cleaning.sql – SQL päringud
+WEEK2_results_screenshot.png – päringute tulemused
+Meeskonna Data Landscape slaid
+
   
 #### Failid
 - [**week2products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/03b9365e94ef3f6d389b4c86bf2d563ff1ffeae9/week2products_cleaning.sql)-- minu SQL päringud
-- [**week2_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3455d12b8b52790aade22ea1749a684f4a7f527f/week2_results_screenshot.pdf) -- tulemuste pilt
-
-#### Osalesin meeskonna andmemaastiku koostamisel
+- [**week2_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3455d12b8b52790aade22ea1749a684f4a7f527f/week2_results_screenshot.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
  
 
