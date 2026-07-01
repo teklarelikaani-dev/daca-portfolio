@@ -217,16 +217,45 @@ Tallinna kauplus ja e-pood on ettevõtte kõige olulisemad müügikanalid ning n
 #### Failid  
  [**WEEK5_PowerBI_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3ed08c10fc92f80542a8f1d50410aeaa5dbff7b4/WEEK5_Visual_Design_PowerBI.png)
 
-## Week 6. Visualization Data
-  - Andmete visualiseerimine Power BI
-  - Data storytelling
-   #### Peamised õppetunnid
-- Vähem on rohkem.
-    
-### Meeskonnatöö
-#### Roll - Tallinna kaupluse analüüs
-- Analüüsisin SQL´iga Tallinna kauplust. Visualiseerisin Power BI´ga.
+## Week 6 – Power BI Data Storytelling
+Analüüsisin UrbanStyle'i Tallinna kaupluse müügitulemusi SQL päringute abil ning koostasin Power BI-s interaktiivse dashboardi, mis aitab juhtkonnal hinnata kaupluse tulemuslikkust aastatel 2023–2024.
 
+#### Kasutatud tehnoloogiad
+- SQL (PostgreSQL / Supabase)
+- Power BI
+  
+## Meeskonnatöö - Roll: Tallinna kaupluse analüüs (Tallinn Store Analyst)
+Koostasin SQL-päringud Tallinna kaupluse andmete analüüsimiseks ning visualiseerisin tulemused Power BI dashboardil.
+
+#### Peamised tulemused
+- Tallinna kaupluse kogukäive oli 1,02 miljonit eurot, mis moodustas 38% ettevõtte kogumüügist.
+- Aastal 2024 taastus müük kiiresti pärast jaanuarikuu langust ning lõppes rekordilise käibega.
+- Keskmine ostukorvi väärtus oli 287 €.
+- Alla 25-aastased kliendid moodustasid ainult 9% klientidest.
+- 43% klientidest ei kuulunud lojaalsusprogrammi.
+
+#### Äriline järeldus
+Tallinna kauplus on ettevõtte üks olulisemaid müügikanaleid ning selle tulemused näitavad tugevat taastumist 2024. aastal. Samas viitab noorte klientide väike osakaal sellele, et ettevõte ei jõua piisavalt hästi noorema sihtrühmani. Samuti näitab lojaalsusprogrammi madal kasutus, et olemasolevate klientide pikaajalist hoidmist saab parandada.
+
+#### Soovitused
+- Korrata turunduskampaaniaid, mis aitasid pärast jaanuarikuu müügilangust kiire taastumise saavutada.
+- Suunata rohkem turundustegevusi alla 25-aastaste klientide kaasamiseks, näiteks sotsiaalmeedia kampaaniate kaudu.
+- Arendada lojaalsusprogrammi ja motiveerida rohkem kliente sellega liituma.
+
+#### Peamised õppetunnid
+- Hästi kujundatud dashboard räägib loo ka ilma pika selgituseta.
+- Vähem visualiseeringuid annab sageli selgema ülevaate kui suur hulk erinevaid graafikuid.
+- Data storytelling aitab muuta andmed juhtidele kiiresti arusaadavaks ning toetab otsuste tegemist.
+
+#### Miks ma selle dashboardi nii kujundasin?
+Dashboard kujundati põhimõttel "Overview first, details on demand". Ülemises reas kuvatakse kolm peamist KPI-d, keskel müügitrendid ja kliendisegmendid ning alumises reas konkreetsed ärilised soovitused. Selline ülesehitus võimaldab juhil mõne minutiga saada ülevaate Tallinna kaupluse tulemustest ja peamistest tegevussuundadest.
+
+Dashboard sisaldab 
+- 3 KPI-d (müügikäive, tellimuste arv, keskmine ostukorv)
+- 4 visualiseeringut (müügitrend kuude lõikes, TOP 5 müüdud toodet, klientide vanusegrupid, lojaalsustasemete jaotus)
+- Aastafilter (2023 / 2024) interaktiivseks võrdluseks.
+  
+#### Failid
   [**WEEK6_PowerBI_Dashboard_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ee10ae2dd4d017e1d69a9071c2780f67bdd3c988/WEEK6_Visual_Design_PowerBI.png)
 
 
