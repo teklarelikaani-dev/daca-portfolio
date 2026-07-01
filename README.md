@@ -4,7 +4,7 @@
 **Osaleja:** [Tekla Relika Ani]
 **Algus:** [27.04.2026]
 
-##Kokkuvõte :
+## Kokkuvõte :
 
 
 # UrbanStyle projekt nädalate kaupa
@@ -34,23 +34,41 @@ Kasutasin ChatGPT-d ja NotebookLM-i seadistusjuhendite mõistmiseks ning võimal
 #### Miks see on oluline?
 Korralikult seadistatud töökeskkond võimaldab alustada analüüsi ilma tehniliste takistusteta ning tagab, et projektid on versioonihallatud, reprodutseeritavad ja hõlpsasti jagatavad meeskonnaga.
 
+## Week 1 – SQL Basics: UrbanStyle andmete uurimine
 
- 
-## Week 1: SQL Basics -- UrbanStyle'i andmete uurimine
-  - Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
-  - Duplikaatide tuvastamine (COUNT, DISTINCT)
-   #### Peamised õppetunnid
-- Andmete sisestamisel on kriitiline jälgida ühtset vormingut. Erinev kirjaviis (nt Tallinn vs tallinn) muudab andmed ebatäpseks, kuna süsteem käsitleb neid tõstutundlikkuse tõttu eraldiseisvate väärtustena.
+Tutvusin UrbanStyle'i kliendiandmetega ning õppisin kasutama SQL päringuid andmete filtreerimiseks, otsimiseks ja kvaliteedi hindamiseks.
 
-### Meeskonnatöö
-#### Roll - Kliendiandmete uurija (Customer Data Explorer)
-- Uurisin "Customers" tabelit SQL päringutega 
+#### Kasutatud SQL teemad
+- Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
+- Duplikaatide tuvastamine (COUNT, DISTINCT)
+
+### Meeskonnatöö - Roll: Kliendiandmete uurija ( Customer Data Explorer )
+
+Analüüsisin customers tabelit, et hinnata kliendiandmete kvaliteeti ning koostada ülevaade andmestikust.
+
+#### Peamised tulemused
+- Kokku 3150 klienti
+- 380 kliendil puudus e-posti aadress
+- Perekonnanimi puudus 0 kliendil
+- 3150 e-posti aadressist oli 2640 unikaalsed, mis viitab duplikaatidele
+- Kliendid olid registreeritud ajavahemikul 2.01.2020 – 27.02.2025
+- Kliendid pärinesid 12 Eesti linnast (Tallinn, Tartu, Narva, Pärnu, Rakvere, Viljandi, Võru, Valga, Paide, Jõhvi, Kuressaare ja Haapsalu)
+
+#### Äriline järeldus
+
+Leidsin, et kliendiandmetes esineb puuduvaid ja duplikaatseid e-posti aadresse, mis võib mõjutada turunduskampaaniate täpsust ning kliendisuhtlust. Enne analüüside ja kampaaniate tegemist tuleks andmed puhastada ning kasutada ühtset andmesisestuse standardit.
+
+#### AI kasutamine
+
+Kasutasin ChatGPT-d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrollisin kõik tulemused iseseisvalt, võrreldes päringute väljundeid Supabase'i andmebaasis.
+
+#### Peamised õppetunnid
+
+Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb SQL vaikimisi väärtusi "Tallinn" ja "tallinn" erinevate kirjetena, mis võib moonutada analüüsi tulemusi. Samuti õppisin kasutama COUNT() ja DISTINCT funktsioone andmete kvaliteedi hindamiseks.
 
 #### Failid
 - [**week1sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e02005dd44540ad5a5172b6c1d3933ac9df6ee17/week1sales_customers_exploration.sql)-- minu SQL päringud
-- [**week1_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2ea3768f3231d4f808d0b655993c906ad421d603/week1_results_screenshot.pdf) -- tulemuste pilt
-  
- #### Osalesin meeskonna andmemaastiku koostamisel
+- [**week1_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2ea3768f3231d4f808d0b655993c906ad421d603/week1_results_screenshot.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
 
