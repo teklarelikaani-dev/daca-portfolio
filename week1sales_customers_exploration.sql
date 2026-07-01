@@ -1,3 +1,4 @@
+-- Kaupluste uurimine
 SELECT COUNT(*) AS ridade_arv FROM sales; --Mitu rida on Sales tabelis
 SELECT * FROM sales LIMIT 10; --Millised veerud ja andmed tabelis on
 SELECT * FROM sales WHERE store_location = 'Tallinn' ORDER BY sale_date DESC LIMIT 15; --Tallinna kaupluse müügid kuupäeva järgi kahanevalt
@@ -14,6 +15,8 @@ SELECT COUNT(*) AS puuduv_asukoht FROM sales WHERE store_location IS NULL; --Teh
 SELECT store_location, COUNT(*) AS tehinguid FROM sales WHERE store_location IS NOT NULL GROUP BY store_location ORDER BY tehinguid DESC; --Tehingute arv kaupluse kohta
 SELECT COUNT(*) AS online_tehinguid FROM sales WHERE channel = 'online'; --Online tehingute arv
 SELECT COUNT(*) AS poe_tehinguid FROM sales WHERE channel = 'pood'; --Kaupluste tehingute arv
+
+-- Klientide uurimine
 SELECT COUNT(*) AS klientide_arv FROM customers; --Mitu klienti on kokku
 SELECT * FROM customers LIMIT 10; --Millised veerud ja andmed on tabelis
 SELECT DISTINCT city FROM customers; --Millistest linnadest kliendid tulevad
