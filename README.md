@@ -4,7 +4,16 @@
 **Osaleja:** [Tekla Relika Ani]
 **Algus:** [27.04.2026]
 
-## Kokkuvõte : ....
+## Kokkuvõte
+10 nädalat tagasi alustasin SQL-i õppimisega. Täna ehitan automatiseeritud andmeanalüüsi lahendusi, mis ühendavad SQL-i, Pythoni ja Power BI ning aitavad ettevõttel teha kiiremaid ja paremaid äriotsuseid. Tänu varasemale kogemusele kaubanduses ei analüüsi ma ainult andmeid – ma otsin võimalusi, kuidas nende põhjal äritulemusi parandada.
+
+Selles portfoolios näitan, kuidas:
+- puhastasin ja ühendasin üle 10 000 müügitehingu SQL-i ja Pythoni abil;
+- analüüsisin klientide, toodete, müügi ja turunduse andmeid;
+- koostasin interaktiivseid Power BI dashboarde juhtidele;
+- ehitasin automatiseeritud Pythoni andmepipeline'i, mis uuendab KPI-d ja visualiseeringud automaatselt Supabase'i andmete põhjal;
+- koostasin RFM kliendisegmendid ning pakkusin andmetel põhinevaid ärisoovitusi.
+
 #### Meeskonnatöö: [**Sales Analytics Team**](https://github.com/kaarusdoris-a11y/Sales-Analytics)
 
 # UrbanStyle projekt nädalate kaupa
@@ -335,23 +344,6 @@ Kasutasin AI-d Pythoni failide struktuuri planeerimiseks, andmete töötlemise l
 
 
 
-
-
-
-
-
-
-
-
-
- 
-## Oskused
- 
-- **SQL:** PostgreSQL, Supabase
-- **Python:** pandas, plotly (tulemas...)
-- **Visualiseerimine:** Power BI / Streamlit (tulemas...)
-- **Tööriistad:** Git, GitHub, VS Code
- 
 ## Kontakt 
     teklarelikaani@gmail.com
 
