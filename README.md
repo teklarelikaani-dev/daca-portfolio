@@ -5,7 +5,7 @@
 **Algus:** [27.04.2026]
 
 ## Kokkuvõte :
-
+#### Meeskonnatöö: [**Sales Analytics Team**](https://github.com/kaarusdoris-a11y/Sales-Analytics)
 
 # UrbanStyle projekt nädalate kaupa
 
