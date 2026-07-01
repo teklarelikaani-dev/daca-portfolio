@@ -255,72 +255,191 @@ rfm.head()
 import plotly.express as px
 import pandas as pd
 
-print("--- VISUALISEERIMINE JA RAPORTEERIMINE ---")
+print("--- VISUALISEERIMINE JA RAPORTEERIMINE (KNAFLIK STYLE) ---")
 
-# Kuna eelmises sammus olid veerud eestikeelses kokkuvõttes teiste nimedega, 
-# teeme siin diagrammi 1 jaoks kiire sagedustabeli otse rfm DataFrame'ist.
-df_seg_counts = rfm['Segment'].value_counts().reset_index()
+# Globaalsed stiilimuutujad puhta ilme saavutamiseks
+GRAY_LIGHT = '#E5E5E5'
+GRAY_DARK = '#555555'
+COLOR_FOCUS = '#1F77B4'  # Strateegiline sinine fookuseks
+FONT_FAMILY = "Arial, sans-serif"
+
+# Teeme kindlaks, et indeks on veergudeks, et customer_id oleks kättesaadav
+rfm_plot = rfm.reset_index()
+
+# ==========================================
+# DIAGRAMM 1: Kliendisegmentide jaotus (Horisontaalne)
+# ==========================================
+df_seg_counts = rfm_plot['Segment'].value_counts().reset_index()
 df_seg_counts.columns = ['Segment', 'Klientide arv']
+df_seg_counts = df_seg_counts.sort_values(by='Klientide arv', ascending=True)
 
-# ==========================================
-# DIAGRAMM 1: Kliendiregmentide jaotus (Tulpdiagramm)
-# ==========================================
+# Värvime ainult suurima segmendi esiletõstmiseks siniseks, teised halliks
+max_seg = df_seg_counts.iloc[-1]['Segment']
+colors = [COLOR_FOCUS if seg == max_seg else GRAY_LIGHT for seg in df_seg_counts['Segment']]
+
 fig1 = px.bar(
     df_seg_counts, 
-    x='Segment', 
-    y='Klientide arv',
+    x='Klientide arv', 
+    y='Segment',
     text='Klientide arv',
-    title='Kliendiregmentide jaotus ja klientide arv',
-    labels={'Segment': 'Kliendiregment', 'Klientide arv': 'Klientide arv (isikut)'},
-    color='Segment'
+    orientation='h',
+    title='<b>SEGMENTIDE SUURUS:</b> Kus asub meie suurim kliendibaas?'
 )
-fig1.update_traces(textposition='outside')
-fig1.show()
+
+fig1.update_traces(marker_color=colors, textposition='outside', textfont_size=12, cliponaxis=False)
+fig1.update_layout(
+    plot_bgcolor='white',
+    font=dict(family=FONT_FAMILY, color='#333333'),
+    title=dict(font=dict(size=16), x=0.0, y=0.95),
+    xaxis=dict(showgrid=False, visible=False),
+    yaxis=dict(title='', showline=False)
+)
 
 
 # ==========================================
 # DIAGRAMM 2: Klientide käitumine (Hajuvusdiagramm / Scatter)
 # ==========================================
+# Määrame käsitsi 10 mahedat ja professionaalset värvitooni segmentide jaoks
+knaflik_palette = ["#F16202", "#75A8EB", "#0EA746", "#A8A099", "#8BF98B"]
+                   #98DF8A', '#D62728', '#FF9896', '#9467BD', '#C5B0D5']
+
 fig2 = px.scatter(
-    rfm.reset_index(), 
+    rfm_plot, 
     x='Recency', 
     y='Monetary',
     size='Frequency', 
     color='Segment',
     hover_name='customer_id',
-    title='Klientide jaotus: Hiljutisus (Recency) vs Kogukulu (Monetary)',
+    title='<b>STRATEEGILINE VAADE:</b> Hiljutisus (Recency) vs Kogukulu (Monetary)',
     labels={
         'Recency': 'Päevi viimasest ostust (Vähem on parem)', 
         'Monetary': 'Kogukäive (€)', 
-        'Segment': 'Segment',
-        'Frequency': 'Ostude arv'
+        'Segment': 'Kliendisegment'
     },
-    log_y=True # Logaritmiline skaala aitab paremini näha suuremaid ja väiksemaid ostjaid koos
+    log_y=True,
+    color_discrete_sequence=knaflik_palette  # Kasutame enda määratud kindlat paletti
 )
-fig2.show()
+
+fig2.update_layout(
+    plot_bgcolor='white',
+    font=dict(family=FONT_FAMILY, color='#333333'),
+    title=dict(font=dict(size=16), x=0.0),
+    xaxis=dict(showgrid=True, gridcolor='#F0F0F0', showline=True, linecolor='#CCCCCC'),
+    yaxis=dict(showgrid=True, gridcolor='#F0F0F0', showline=False),
+    legend=dict(title='', yanchor="top", y=0.99, xanchor="right", x=0.99)
+)
 
 
 # ==========================================
 # DIAGRAMM 3: Top 10 VIP klienti kogukulutuse järgi
 # ==========================================
-top_vip = rfm[rfm['Segment'] == 'VIP Champions'].nlargest(10, 'Monetary').reset_index()
+top_vip = rfm_plot[rfm_plot['Segment'] == 'VIP Champions'].nlargest(10, 'Monetary').sort_values(by='Monetary', ascending=True)
 
 fig3 = px.bar(
     top_vip, 
-    x='customer_id', 
-    y='Monetary',
+    x='Monetary', 
+    y='customer_id',
     text='Monetary',
-    title='Top 10 VIP Champions klienti kogukulutuse järgi',
-    labels={'customer_id': 'Kliendi ID', 'Monetary': 'Kogutulu (€)'},
-    color='Monetary',
-    color_continuous_scale='Viridis'
+    orientation='h',
+    title='<b>TOP 10 VIP CHAMPIONS:</b> Meie kõige väärtuslikumad kliendid kogukulutuse järgi',
+    labels={'customer_id': 'Kliendi ID'}
 )
-fig3.update_traces(texttemplate='%{text}:.2f€', textposition='outside')
-fig3.show()
+
+fig3.update_traces(
+    marker_color=COLOR_FOCUS, 
+    texttemplate='%{text}:,.2f} €', 
+    textposition='outside',
+    cliponaxis=False
+)
+fig3.update_layout(
+    plot_bgcolor='white',
+    font=dict(family=FONT_FAMILY, color='#333333'),
+    title=dict(font=dict(size=16), x=0.0),
+    xaxis=dict(showgrid=False, visible=False),
+    yaxis=dict(type='category', title='')
+)
 
 
 # ==========================================
-# ÄRILINE ARVUTUS RAPORDI JAOKS (Abiarvutused tekstile)
+# DIAGRAMM 4: Recency (Värskuse) jaotus (Histogramm)
+# ==========================================
+fig4 = px.histogram(
+    rfm_plot, 
+    x='Recency',
+    nbins=30,
+    title='<b>OSTUAKTIIVSUS:</b> Suur osa klientidest on teinud ostu viimase perioodi jooksul',
+    labels={'Recency': 'Päevad viimasest ostust (Recency)', 'count': 'Klientide arv'}
+)
+fig4.update_traces(marker_color=GRAY_DARK, opacity=0.8, marker_line_color='white', marker_line_width=1)
+fig4.update_layout(
+    plot_bgcolor='white',
+    font=dict(family=FONT_FAMILY, color='#333333'),
+    title=dict(font=dict(size=16), x=0.0),
+    xaxis=dict(showgrid=False, showline=True, linecolor='#CCCCCC'),
+    yaxis=dict(title='Klientide arv', showgrid=True, gridcolor='#F0F0F0')
+)
+
+
+# ==========================================
+# DIAGRAMM 5: Ostusageduse (Frequency) jaotus
+# ==========================================
+fig5 = px.histogram(
+    rfm_plot, 
+    x='Frequency',
+    nbins=20,
+    title='<b>OSTUSAGEDUS:</b> Enamik baasist teeb üksikuid oste, fookus on püsiklientidel',
+    labels={'Frequency': 'Ostude arv (Frequency)'}
+)
+fig5.update_traces(marker_color=GRAY_DARK, opacity=0.8, marker_line_color='white', marker_line_width=1)
+fig5.update_layout(
+    plot_bgcolor='white',
+    font=dict(family=FONT_FAMILY, color='#333333'),
+    title=dict(font=dict(size=16), x=0.0),
+    xaxis=dict(showgrid=False, showline=True, linecolor='#CCCCCC'),
+    yaxis=dict(title='Klientide arv', showgrid=True, gridcolor='#F0F0F0')
+)
+
+
+# ==========================================
+# DIAGRAMM 6: Segmentide kogupanus käibesse (Monetary panus)
+# ==========================================
+df_seg_mon = rfm_plot.groupby('Segment')['Monetary'].sum().reset_index().sort_values(by='Monetary', ascending=True)
+max_mon_seg = df_seg_mon.iloc[-1]['Segment']
+colors_mon = [COLOR_FOCUS if seg == max_mon_seg else GRAY_LIGHT for seg in df_seg_mon['Segment']]
+
+fig6 = px.bar(
+    df_seg_mon, 
+    x='Monetary', 
+    y='Segment',
+    text='Monetary',
+    orientation='h',
+    title='<b>TULUDE JAOTUS:</b> Milline segment toob meile äriliselt suurima tulu?'
+)
+
+fig6.update_traces(
+    marker_color=colors_mon, 
+    texttemplate='%{text}:,.0f} €', 
+    textposition='outside',
+    cliponaxis=False
+)
+fig6.update_layout(
+    plot_bgcolor='white',
+    font=dict(family=FONT_FAMILY, color='#333333'),
+    title=dict(font=dict(size=16), x=0.0),
+    xaxis=dict(showgrid=False, visible=False),
+    yaxis=dict(title='', showline=False)
+)
+
+# Kuvame kõik joonised järjest
+fig1.show()
+fig2.show()
+fig3.show()
+fig4.show()
+fig5.show()
+fig6.show()
+
+# ==========================================
+# ÄRILINE ARVUTUS RAPORDI JAOKS
 # ==========================================
 kokku_kaive = rfm['Monetary'].sum()
 vip_kaive = rfm[rfm['Segment'] == 'VIP Champions']['Monetary'].sum()
