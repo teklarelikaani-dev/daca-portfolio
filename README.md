@@ -4,7 +4,7 @@
 **Osaleja:** [Tekla Relika Ani]
 **Algus:** [27.04.2026]
 
-## Kokkuvõte :
+## Kokkuvõte : ....
 #### Meeskonnatöö: [**Sales Analytics Team**](https://github.com/kaarusdoris-a11y/Sales-Analytics)
 
 # UrbanStyle projekt nädalate kaupa
