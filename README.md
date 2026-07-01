@@ -161,7 +161,7 @@ Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised
 - Agregaatfunktsioonid (COUNT, SUM, AVG)
 - CTE (Common Table Expression)
 
-## Meeskonnatöö - Roll: Turunduskanalite ROI (Marketing Campaign Effectiveness)
+### Meeskonnatöö - Roll: Turunduskanalite ROI (Marketing Campaign Effectiveness)
 Analüüsisin tabelite sales, customers ja weblogs andmeid ning koostasin turunduskanalite võrdluse.
 
 #### Peamised tulemused
@@ -233,7 +233,7 @@ Analüüsisin UrbanStyle'i Tallinna kaupluse müügitulemusi SQL päringute abil
 - SQL (PostgreSQL / Supabase)
 - Power BI
   
-## Meeskonnatöö - Roll: Tallinna kaupluse analüüs (Tallinn Store Analyst)
+### Meeskonnatöö - Roll: Tallinna kaupluse analüüs (Tallinn Store Analyst)
 Koostasin SQL-päringud Tallinna kaupluse andmete analüüsimiseks ning visualiseerisin tulemused Power BI dashboardil.
 
 #### Peamised tulemused
