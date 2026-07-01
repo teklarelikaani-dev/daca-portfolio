@@ -329,6 +329,8 @@ Kasutasin AI-d Pythoni failide struktuuri planeerimiseks, andmete töötlemise l
 - Andmepipeline tagab, et analüüs kasutab alati kõige uuemaid andmeid.
 
 #### Failid
+- [**WEEK8_Python_Pipeline**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e5ead99c403af5625cdbe1a06d65bae20d469730/WEEK8_Python_Pipeline.py) - Python skript
+- [**WEEK8_Python_Weekly_KPI**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e5ead99c403af5625cdbe1a06d65bae20d469730/WEEK8_Python_Weekly_KPI.pdf) - Python joonised
 
 
 
