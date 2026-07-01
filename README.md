@@ -61,9 +61,9 @@ Kasutasin AI-d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrolli
 Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb SQL vaikimisi väärtusi "Tallinn" ja "tallinn" erinevate kirjetena, mis võib moonutada analüüsi tulemusi. Samuti õppisin kasutama COUNT() ja DISTINCT funktsioone andmete kvaliteedi hindamiseks.
 
 #### Failid
-[**WEEK1_sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2edd6e719d1a7c614f263c25ea5599272f845597/WEEK1_sales_customers_exploration.sql)-- minu SQL päringud
-[**WEEK1_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e54de9f223daea5405f11b48740e84738bea25ff/WEEK1_results_screenshots.pdf) -- päringute tulemused
-[**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
+- [**WEEK1_sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2edd6e719d1a7c614f263c25ea5599272f845597/WEEK1_sales_customers_exploration.sql)-- minu SQL päringud
+- [**WEEK1_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e54de9f223daea5405f11b48740e84738bea25ff/WEEK1_results_screenshots.pdf) -- päringute tulemused
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
 ## Week 2 – SQL Data Cleaning: UrbanStyle tooteandmete puhastamine
 Puhastasin UrbanStyle'i tooteandmeid, et parandada andmete kvaliteeti enne müügi- ja laoseisu analüüsi. Keskendusin duplikaatide, NULL-väärtuste ja võimalike formaadivigade leidmisele.
@@ -98,9 +98,9 @@ Kasutasin AI-d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise 
 - Andmete puhastamine on usaldusväärsete analüüside eelduseks.
   
 #### Failid
-[**WEEK2_products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/d1aef06b2d1dfef876f832e291e42b119a7535fd/WEEK2_products_cleaning.sql)-- minu SQL päringud
-[**WEEK2_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eedc1ef905326930734597ddc56347d11676265/WEEK2_results_screenshots.pdf) -- päringute tulemused
-[**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
+- [**WEEK2_products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/d1aef06b2d1dfef876f832e291e42b119a7535fd/WEEK2_products_cleaning.sql)-- minu SQL päringud
+- [**WEEK2_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eedc1ef905326930734597ddc56347d11676265/WEEK2_results_screenshots.pdf) -- päringute tulemused
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
  
 ## Week 3 – SQL JOINs
 Kasutasin JOIN päringuid, et ühendada müügi-, toote- ja laoseisu andmed ning analüüsida müümata tooteid, populaarsemaid kategooriaid ja inventuuri efektiivsust.
@@ -139,9 +139,9 @@ Kasutasin AI-d erinevate JOIN-tüüpide kirjutamiseks, mõistmiseks ja päringut
 - Inventuuri analüüsimisel tuleb alati võrrelda laoseisu tegeliku müügiga.
 
 #### Failid
-[**WEEK3_products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/020fb87252c7cbd9920928c8f88ff327e4ba59be/WEEK3_products_sales_join.sql)-- minu SQL päringud
-[**WEEK3_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/17bd10dcc18b9e46c73661a79642394f755d0a06/WEEK3_results_screenshots.pdf) -- päringute tulemused
-[**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
+- [**WEEK3_products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/020fb87252c7cbd9920928c8f88ff327e4ba59be/WEEK3_products_sales_join.sql)-- minu SQL päringud
+- [**WEEK3_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/17bd10dcc18b9e46c73661a79642394f755d0a06/WEEK3_results_screenshots.pdf) -- päringute tulemused
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
 
 ## Week 4 – SQL Aggregation
 Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised kanalid toovad kõige rohkem kliente, käivet ja suurima keskmise tellimusväärtuse.
@@ -182,9 +182,9 @@ Kasutasin AI-d CTE ja agregaatpäringute koostamise toetamiseks ning SQL-päring
 - Agregaatfunktsioonid võimaldavad muuta suure andmemahu selgeteks ärinäitajateks.
 
 #### Failid
-[**WEEK4_marketing_roi.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7dc13e865f0dc16f6ae9b4967bf71ae2f4763346/WEEK4_marketing_roi.sql)-- minu SQL päringud
-[**WEEK4_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/9ea37fce605a8b44fd0e9d4689fbcf6bab5b719d/WEEK4_results_screenshots.pdf) -- tulemuste pilt
-[**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
+- [**WEEK4_marketing_roi.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7dc13e865f0dc16f6ae9b4967bf71ae2f4763346/WEEK4_marketing_roi.sql)-- minu SQL päringud
+- [**WEEK4_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/9ea37fce605a8b44fd0e9d4689fbcf6bab5b719d/WEEK4_results_screenshots.pdf) -- tulemuste pilt
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
 
 ## Week 5 – Power BI: Müügikanalite efektiivsuse visualiseerimine
 Lõin Power BI dashboardi, et visualiseerida müügikanalite tulemuslikkust ja klientide kasvu ajas ning toetada juhtkonna otsuste tegemist.
@@ -215,7 +215,7 @@ Tallinna kauplus ja e-pood on ettevõtte kõige olulisemad müügikanalid ning n
 - Interaktiivsed filtrid (slicer) muudavad dashboardi kasutajasõbralikumaks ja paindlikumaks.
 
 #### Failid  
- [**WEEK5_PowerBI_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3ed08c10fc92f80542a8f1d50410aeaa5dbff7b4/WEEK5_Visual_Design_PowerBI.png)
+ - [**WEEK5_PowerBI_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3ed08c10fc92f80542a8f1d50410aeaa5dbff7b4/WEEK5_Visual_Design_PowerBI.png)
 
 ## Week 6 – Power BI Data Storytelling
 Analüüsisin UrbanStyle'i Tallinna kaupluse müügitulemusi SQL päringute abil ning koostasin Power BI-s interaktiivse dashboardi, mis aitab juhtkonnal hinnata kaupluse tulemuslikkust aastatel 2023–2024.
@@ -256,7 +256,7 @@ Dashboard sisaldab
 - Aastafilter (2023 / 2024) interaktiivseks võrdluseks.
   
 #### Failid
-  [**WEEK6_PowerBI_Dashboard_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ee10ae2dd4d017e1d69a9071c2780f67bdd3c988/WEEK6_Visual_Design_PowerBI.png)
+- [**WEEK6_PowerBI_Dashboard_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ee10ae2dd4d017e1d69a9071c2780f67bdd3c988/WEEK6_Visual_Design_PowerBI.png)
 
 ## Week 7 – Python & Pandas: UrbanStyle RFM kliendianalüüs
 Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency, Monetary) analüüsi, et segmenteerida kliendid nende ostukäitumise põhjal ning teha soovitusi turundus- ja kliendisuhete parandamiseks. Ühendasin selleks sales (10118 rida ja 12 veergu) ja customers (3150 rida ja 9 veergu) tabelid. Peale puhastamist 8950 rida ja 20 veergu. 
@@ -288,8 +288,8 @@ Kasutasin AI-d Pandase funktsioonide ja RFM arvutuste kontrollimiseks ning koodi
 - RFM analüüs aitab muuta toorandmed praktilisteks turundus- ja kliendihalduse otsusteks.
 
 #### Failid
-[**WEEK7_Python_RFM_analüüs**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2823447a2e40a38cc6d2221d137143c0edc33d69/WEEK7_Python_RFM.py) - Python skript
-[**WEEK7_Python_RFM_analüüs_visual**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2823447a2e40a38cc6d2221d137143c0edc33d69/WEEK7_Python_RFM_visual.pdf) - Python joonised
+- [**WEEK7_Python_RFM_analüüs**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2823447a2e40a38cc6d2221d137143c0edc33d69/WEEK7_Python_RFM.py) - Python skript
+- [**WEEK7_Python_RFM_analüüs_visual**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2823447a2e40a38cc6d2221d137143c0edc33d69/WEEK7_Python_RFM_visual.pdf) - Python joonised
  
 ## Oskused
  
