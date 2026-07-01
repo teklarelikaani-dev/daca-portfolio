@@ -258,7 +258,37 @@ Dashboard sisaldab
 #### Failid
   [**WEEK6_PowerBI_Dashboard_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ee10ae2dd4d017e1d69a9071c2780f67bdd3c988/WEEK6_Visual_Design_PowerBI.png)
 
+## Week 7 – Python & Pandas: UrbanStyle RFM kliendianalüüs
+Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency, Monetary) analüüsi, et segmenteerida kliendid nende ostukäitumise põhjal ning teha soovitusi turundus- ja kliendisuhete parandamiseks. Ühendasin selleks sales (10118 rida ja 12 veergu) ja customers (3150 rida ja 9 veergu) tabelid. Peale puhastamist 8950 rida ja 20 veergu. 
 
+#### Kasutatud tehnoloogiad
+- Python
+- Jupyter Notebook (VS Code)
+- Supabase (PostgreSQL)
+
+#### RFM analüüs ja soovitused
+- Potential (29,88%) - ettevõtte suurim kasvuvõimalus - tervitus- ja lojaalsusprogrammid; personaalsed pakkumised; motiveerida teist ja kolmandat ostu tegema.
+- Loyal (26,73%) - ettevõtte "selgroog" - lojaalsusprogramm; eksklusiivsed pakkumised; kliendirahulolu regulaarne mõõtmine.
+- At Risk (20,83%) - suurim riskikoht - "tule tagasi" pakkumised; uurida lahkumise põhjuseid; personaalsed meeldetuletused.
+- VIP Champions (17,91%) - suur osa käibest -  VIP-programmid; personaalne teenindus; varajane ligipääs toodetele; tänukampaaniad; erisoodustused.
+- Lost (4,65%) - kaotatud kliendid - üks viimane reaktivatsioonikampaania ning kui tulemust pole, siis vähendada turunduskulusid nende peale.
+
+#### Äriline järeldus
+- RFM analüüs näitas, et ettevõttel on tugev lojaalsete klientide baas (Loyal + VIP Champions = 44,6%), mis loob stabiilse müügitulu.
+- Ligi 30% klientidest Potential segmendi, mis on ettevõtte suurim kasvuvõimalus.
+- Kõige suurem risk on At Risk segment (20,83%), sest nende klientide kaotamine võib oluliselt vähendada tulevast käivet.
+
+#### AI kasutamine
+Kasutasin AI-d Pandase funktsioonide ja RFM arvutuste kontrollimiseks ning koodi optimeerimiseks. Kontrollisin kõik vahetulemused Jupyter Notebookis ning võrdlesin segmentide jaotust arvutatud RFM näitajatega.
+
+#### Peamised õppetunnid
+- Andmete ühendamine (merge) on kliendianalüüsi alus, sest võimaldab siduda ostud konkreetsete klientidega.
+- Enne analüüsi tuleb andmed puhastada, et vältida vigaseid tulemusi.
+- Pandas võimaldab töödelda suuri andmehulkasid kiiresti ja efektiivselt.
+- RFM analüüs aitab muuta toorandmed praktilisteks turundus- ja kliendihalduse otsusteks.
+
+#### Failid
+[**WEEK7_Python_RFM_analüüs**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/522b6a84771e3484de1a8b204b2caeb6ed2dd8d2/WEEK8_Python_RFM.py) - Python skript
  
 ## Oskused
  
