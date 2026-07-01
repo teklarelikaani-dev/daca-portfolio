@@ -68,7 +68,7 @@ Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb S
 
 #### Failid
 - [**WEEK1_sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2edd6e719d1a7c614f263c25ea5599272f845597/WEEK1_sales_customers_exploration.sql)-- minu SQL päringud
-- [**week1_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2ea3768f3231d4f808d0b655993c906ad421d603/week1_results_screenshot.pdf) -- päringute tulemused
+- [**WEEK1_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e54de9f223daea5405f11b48740e84738bea25ff/WEEK1_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
 
