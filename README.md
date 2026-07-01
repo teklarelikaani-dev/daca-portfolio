@@ -266,12 +266,15 @@ Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency
 - Jupyter Notebook (VS Code)
 - Supabase (PostgreSQL)
 
-#### RFM analüüs ja soovitused
-- Potential (29,88%) - ettevõtte suurim kasvuvõimalus - tervitus- ja lojaalsusprogrammid; personaalsed pakkumised; motiveerida teist ja kolmandat ostu tegema.
-- Loyal (26,73%) - ettevõtte "selgroog" - lojaalsusprogramm; eksklusiivsed pakkumised; kliendirahulolu regulaarne mõõtmine.
-- At Risk (20,83%) - suurim riskikoht - "tule tagasi" pakkumised; uurida lahkumise põhjuseid; personaalsed meeldetuletused.
-- VIP Champions (17,91%) - suur osa käibest -  VIP-programmid; personaalne teenindus; varajane ligipääs toodetele; tänukampaaniad; erisoodustused.
-- Lost (4,65%) - kaotatud kliendid - üks viimane reaktivatsioonikampaania ning kui tulemust pole, siis vähendada turunduskulusid nende peale.
+#### RFM analüüs
+
+| Kliendisegment | Soovitused |
+| :--- | :--- |
+| **Potential (29,88%) - ettevõtte suurim kasvuvõimalus** | Tervitus- ja lojaalsusprogrammid; personaalsed pakkumised; motiveerida teist ja kolmandat ostu tegema. |
+| **Loyal (26,73%) - ettevõtte selgroog** | Lojaalsusprogramm; eksklusiivsed pakkumised; kliendirahulolu regulaarne mõõtmine. |
+| **At Risk (20,83%) - suurim riskikoh** | "Tule tagasi" pakkumised; uurida lahkumise põhjuseid; personaalsed meeldetuletused |
+| **VIP Champions (17,91%) - suur osa käibest** |  VIP-programmid; personaalne teenindus; varajane ligipääs toodetele; tänukampaaniad; erisoodustused.|
+| **Lost (4,65%) - kaotatud kliendid** | Üks viimane reaktivatsioonikampaania ning kui tulemust pole, siis vähendada turunduskulusid nende peale. |
 
 #### Äriline järeldus
 - RFM analüüs näitas, et ettevõttel on tugev lojaalsete klientide baas (Loyal + VIP Champions = 44,6%), mis loob stabiilse müügitulu.
