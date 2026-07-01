@@ -108,14 +108,8 @@ Kasutasin AI´d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise
 - Andmete puhastamine on usaldusväärsete analüüside eelduseks.
   
 #### Failid
-WEEK2_products_cleaning.sql – SQL päringud
-WEEK2_results_screenshot.png – päringute tulemused
-Meeskonna Data Landscape slaid
-
-  
-#### Failid
-- [**week2products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/03b9365e94ef3f6d389b4c86bf2d563ff1ffeae9/week2products_cleaning.sql)-- minu SQL päringud
-- [**week2_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3455d12b8b52790aade22ea1749a684f4a7f527f/week2_results_screenshot.pdf) -- päringute tulemused
+- [**WEEK2_products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/d1aef06b2d1dfef876f832e291e42b119a7535fd/WEEK2_products_cleaning.sql)-- minu SQL päringud
+- [**WEEK2_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eedc1ef905326930734597ddc56347d11676265/WEEK2_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
  
 
