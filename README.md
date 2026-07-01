@@ -10,7 +10,6 @@
 # UrbanStyle projekt nädalate kaupa
 
 ## Week 0 – Onboarding: Töökeskkonna seadistamine
-
 Seadistasin andmeanalüütiku tööks vajalikud tööriistad ning lõin keskkonna, kus saan hallata andmeid, kirjutada SQL päringuid, visualiseerida tulemusi ja versioonihaldust kasutada.
 
 #### Seadistatud tööriistad
@@ -35,7 +34,6 @@ Kasutasin ChatGPT-d ja NotebookLM-i seadistusjuhendite mõistmiseks ning võimal
 Korralikult seadistatud töökeskkond võimaldab alustada analüüsi ilma tehniliste takistusteta ning tagab, et projektid on versioonihallatud, reprodutseeritavad ja hõlpsasti jagatavad meeskonnaga.
 
 ## Week 1 – SQL Basics: UrbanStyle andmete uurimine
-
 Tutvusin UrbanStyle'i kliendiandmetega ning õppisin kasutama SQL päringuid andmete filtreerimiseks, otsimiseks ja kvaliteedi hindamiseks.
 
 #### Kasutatud SQL teemad
@@ -43,7 +41,6 @@ Tutvusin UrbanStyle'i kliendiandmetega ning õppisin kasutama SQL päringuid and
 - Duplikaatide tuvastamine (COUNT, DISTINCT)
 
 ### Meeskonnatöö - Roll: Kliendiandmete uurija (Customer Data Explorer)
-
 Analüüsisin customers tabelit, et hinnata kliendiandmete kvaliteeti ning koostada ülevaade andmestikust.
 
 #### Peamised tulemused
@@ -55,15 +52,12 @@ Analüüsisin customers tabelit, et hinnata kliendiandmete kvaliteeti ning koost
 - Kliendid pärinesid 12 Eesti linnast (Tallinn, Tartu, Narva, Pärnu, Rakvere, Viljandi, Võru, Valga, Paide, Jõhvi, Kuressaare ja Haapsalu)
 
 #### Äriline järeldus
-
 Leidsin, et kliendiandmetes esineb puuduvaid ja duplikaatseid e-posti aadresse, mis võib mõjutada turunduskampaaniate täpsust ning kliendisuhtlust. Enne analüüside ja kampaaniate tegemist tuleks andmed puhastada ning kasutada ühtset andmesisestuse standardit.
 
 #### AI kasutamine
-
-Kasutasin AI´d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrollisin kõik tulemused iseseisvalt, võrreldes päringute väljundeid Supabase'i andmebaasis.
+Kasutasin AI-d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrollisin kõik tulemused iseseisvalt, võrreldes päringute väljundeid Supabase'i andmebaasis.
 
 #### Peamised õppetunnid
-
 Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb SQL vaikimisi väärtusi "Tallinn" ja "tallinn" erinevate kirjetena, mis võib moonutada analüüsi tulemusi. Samuti õppisin kasutama COUNT() ja DISTINCT funktsioone andmete kvaliteedi hindamiseks.
 
 #### Failid
@@ -72,7 +66,6 @@ Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb S
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
 ## Week 2 – SQL Data Cleaning: UrbanStyle tooteandmete puhastamine
-
 Puhastasin UrbanStyle'i tooteandmeid, et parandada andmete kvaliteeti enne müügi- ja laoseisu analüüsi. Keskendusin duplikaatide, NULL-väärtuste ja võimalike formaadivigade leidmisele.
 
 #### Kasutatud SQL teemad
@@ -81,7 +74,6 @@ Puhastasin UrbanStyle'i tooteandmeid, et parandada andmete kvaliteeti enne müü
 - Andmetüüpide kontroll
 
 ### Meeskonnatöö - Roll: Tooteandmete puhastaja (Product Data Cleaner)
-
 Analüüsisin products tabelit ning koostasin puhastamisraporti koos SQL skriptiga.
 
 #### Peamised tulemused
@@ -95,12 +87,10 @@ Analüüsisin products tabelit ning koostasin puhastamisraporti koos SQL skripti
 - 5 tootekategooriat
 
 #### Äriline järeldus
-
 Tooteandmete kvaliteet oli üldiselt hea, sest kriitilised väljad ei sisaldanud puuduvaid väärtusi. Suurimaks probleemiks olid 12 duplikaatset tootenime, mis võivad põhjustada ebatäpseid müügi-, lao- ja tooteanalüüse. Enne aruannete koostamist tuleks duplikaadid eemaldada või ühtlustada, et iga toode oleks süsteemis esindatud ainult ühe kirjena.
 
 #### AI kasutamine
-
-Kasutasin AI´d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise toetamiseks. Kontrollisin kõik tulemused iseseisvalt Supabase'i andmebaasis ning testisin päringuid enne muudatuste tegemist testkoopial.
+Kasutasin AI-d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise toetamiseks. Kontrollisin kõik tulemused iseseisvalt Supabase'i andmebaasis ning testisin päringuid enne muudatuste tegemist testkoopial.
 
 #### Peamised õppetunnid
 - Enne andmete muutmist tuleb alati töötada testtabeliga.
@@ -112,21 +102,45 @@ Kasutasin AI´d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise
 - [**WEEK2_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eedc1ef905326930734597ddc56347d11676265/WEEK2_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
  
+## Week 3 – SQL JOINs
+Kasutasin JOIN päringuid, et ühendada müügi-, toote- ja laoseisu andmed ning analüüsida müümata tooteid, populaarsemaid kategooriaid ja inventuuri efektiivsust.
 
-## Week 3. SQL JOINs
-  - Andmete lugemine mitmest tabelist ja tabelite ühendamine (JOIN) 
-   #### Peamised õppetunnid
-- Vale JOIN-i tüübi valimine muudab päringu tulemust drastiliselt.
+#### Kasutatud SQL teemad
+- LEFT JOIN
+- INNER JOIN
+- JOIN mitme tabeli vahel
+- Agregaatfunktsioonid
+- GROUP BY
 
-### Meeskonnatöö
-#### Roll - Tooted + Inventuur (LEFT JOIN)
-- Müümata toodete ja inventuuri analüüs. Tabelid: products, sales, inventory
+### Meeskonnatöö - Roll: Toodete ja inventuuri analüüs (Products + Inventory Analyst)
+Analüüsisin tabeleid products, sales ja inventory, et hinnata toodete müüki ning laoseisu.
+
+#### Peamised tulemused
+- Leidsin 12 toodet, mida ei olnud kunagi müüdud.
+- 231 toodet olid märgistatud staatusega "Telli juurde".
+- Jalanõud ja meeste riided moodustasid kokku üle 50% kogu müügist.
+- Laoseisu ja müügi võrdlus näitas võimalikku anomaaliat – olemasolevast laovarust piisaks praeguse müügitempo juures ligikaudu 61 aastaks.
+  
+#### Äriline järeldus
+Analüüs viitas sellele, et ettevõtte laoseis võib olla oluliselt suurem kui tegelik nõudlus õigustab. Eriti tasuks üle vaadata müügita tooted ning madalama nõudlusega kategooriad, nagu aksessuaarid ja lasteriided. Samuti tuleks kontrollida laoseisu andmete õigsust, sest väga suur laovaru seob kapitali ja suurendab aegumise ning ladustamise kulusid.
+
+#### Soovitused
+- Eemaldada või ümber hinnata tooted, mida ei ole kunagi müüdud.
+- Vähendada madala nõudlusega toodete laoseisu.
+- Kontrollida inventuuriandmete õigsust ja laoseisu planeerimise loogikat.
+- Keskenduda suurema nõudlusega kategooriate (jalanõud ja meeste riided) varude optimeerimisele.
+
+#### AI kasutamine
+Kasutasin AI-d erinevate JOIN-tüüpide mõistmiseks ja päringute kontrollimiseks. Võrdlesin LEFT JOIN ja INNER JOIN tulemusi ning kontrollisin järeldused SQL päringute väljundite põhjal.
+
+#### Peamised õppetunnid
+- Vale JOIN-i tüübi valimine võib muuta analüüsi tulemusi oluliselt.
+- Mitme tabeli ühendamine võimaldab leida äriliselt väärtuslikke seoseid, mida ühest tabelist ei näe.
+- Inventuuri analüüsimisel tuleb alati võrrelda laoseisu tegeliku müügiga.
 
 #### Failid
-- [**week3products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/19e73b37b04521426db3e83bdc75f2df09914def/week3products_sales_join.sql)-- minu SQL päringud
-- [**week3_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/402820b6edc96dd4ae326df0c8bd3be7b99e7af7/week3_results_screenshot.pdf) -- tulemuste pilt
-
-#### Osalesin meeskonna andmemaastiku koostamisel
+- [**WEEK3_products_sales_join.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/020fb87252c7cbd9920928c8f88ff327e4ba59be/WEEK3_products_sales_join.sql)-- minu SQL päringud
+- [**WEEK3_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/17bd10dcc18b9e46c73661a79642394f755d0a06/WEEK3_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
 
 
