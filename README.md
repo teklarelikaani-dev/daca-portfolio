@@ -186,17 +186,36 @@ Kasutasin AI-d CTE ja agregaatpäringute koostamise toetamiseks ning SQL-päring
 - [**WEEK4_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/9ea37fce605a8b44fd0e9d4689fbcf6bab5b719d/WEEK4_results_screenshots.pdf) -- tulemuste pilt
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
 
-## Week 5. Visualization Design
-  - Power BI ühendamine Supabase´iga
-  - Andmete visualiseerimine Power BI
-   #### Peamised õppetunnid
-- Õiged andmed loovad korrektsed graafikud.
-    
-### Meeskonnatöö
-#### Roll - Müügikanalite efektiivsus
-- Analüüsisin SQL´iga müügikanalite efektiivsust ja klientide kasvu. Visualiseerisin Power BI´ga.
-  
- [**week5_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/b39e3cf42552debe1f4e9f15c927d96a3bb91c2e/Week5_Visual_Design_PowerBI.png)
+## Week 5 – Power BI: Müügikanalite efektiivsuse visualiseerimine
+Lõin Power BI dashboardi, et visualiseerida müügikanalite tulemuslikkust ja klientide kasvu ajas ning toetada juhtkonna otsuste tegemist.
+
+#### Kasutatud tehnoloogiad
+- SQL (PostgreSQL / Supabase)
+- Power BI
+
+### Meeskonnatöö - Roll: Müügikanalite analüüs (Marketing Dashboard Analyst)
+Koostasin SQL-päringud vajalike andmete leidmiseks ning visualiseerisin tulemused Power BI-s, valmistasin interaktiivse dashboardi.
+
+#### Peamised tulemused
+- Avastasin, et suurima käibega kauplused on Tallinna kauplus (1,09M) ja e-pood (1,01M)
+- Need kaks kanalit tõid ka kõige rohkem uusi kliente.
+- Alates 2022. aastast on uute klientide kasv olnud selges langustrendis.
+
+#### Äriline järeldus
+Tallinna kauplus ja e-pood on ettevõtte kõige olulisemad müügikanalid ning nende arendamine võiks olla prioriteet. Samas näitab uute klientide vähenemine pärast 2022. aastat, et ettevõttel võib olla raskusi uute klientide leidmisega. Kui trend jätkub, võib see tulevikus mõjutada müügikasvu.
+
+#### Soovitused
+- Analüüsida täpsemalt, mis muutus alates 2022. aastast (turunduseelarve, kampaaniad, konkurents või kliendikäitumine).
+- Käivitada uutele klientidele suunatud kampaaniaid ja lojaalsusprogramme.
+- Jälgida dashboardi regulaarselt, et märgata muutusi võimalikult varakult.
+
+#### Peamised õppetunnid
+- Korrektsed ja puhastatud andmed on usaldusväärsete visualiseeringute aluseks.
+- Hästi kujundatud dashboard aitab märgata trende ja toetab kiiremat otsustamist.
+- Interaktiivsed filtrid (slicer) muudavad dashboardi kasutajasõbralikumaks ja paindlikumaks.
+
+#### Failid  
+ [**WEEK5_PowerBI_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3ed08c10fc92f80542a8f1d50410aeaa5dbff7b4/WEEK5_Visual_Design_PowerBI.png)
 
 ## Week 6. Visualization Data
   - Andmete visualiseerimine Power BI
@@ -208,7 +227,7 @@ Kasutasin AI-d CTE ja agregaatpäringute koostamise toetamiseks ning SQL-päring
 #### Roll - Tallinna kaupluse analüüs
 - Analüüsisin SQL´iga Tallinna kauplust. Visualiseerisin Power BI´ga.
 
-  [**week6_results_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/3292711a9ca78307a276861a4e7596399ac4cc38/Week6_Visual_Design_PowerBI.png)
+  [**WEEK6_PowerBI_Dashboard_screenshot**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/ee10ae2dd4d017e1d69a9071c2780f67bdd3c988/WEEK6_Visual_Design_PowerBI.png)
 
 
  
