@@ -19,7 +19,7 @@ Selles portfoolios näitan, kuidas:
 |---| 
 | [**WEEK 0 Onboarding**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/5e4603fedd2c270bdb9c5514b663618e5319ad76/Onboarding.md) | 
 | [**WEEK 1 SQL Basics**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2688e5b521cb176f0afbf1fa3683e22b0acdb58a/SQL%20Basics.md) | 
-| WEEK 2 | 
+| [**WEEK 2 SQL Data Cleaning**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/aafaea18590e92ec95334792e5a437e546bfb261/2%20SQL%20Data%20Cleaning.md) | 
 | WEEK 3 | 
 | [**WEEK 4 SQL Aggregation**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7b0380a5c2450343626a4ae1955b176d2acfed6b/SQL%20Aggregation.md) | 
 | WEEK 5 | 
@@ -31,75 +31,8 @@ Selles portfoolios näitan, kuidas:
 
 
 
-## Week 1 – SQL Basics: UrbanStyle andmete uurimine
-Tutvusin UrbanStyle'i kliendiandmetega ning õppisin kasutama SQL päringuid andmete filtreerimiseks, otsimiseks ja kvaliteedi hindamiseks.
 
-#### Kasutatud SQL teemad
-- Andmete lugemine (SELECT, FROM, AS, LIMIT, WHERE, BETWEEN, IN, LIKE, AND, OR) 
-- Duplikaatide tuvastamine (COUNT, DISTINCT)
-
-### Meeskonnatöö - Roll: Kliendiandmete uurija (Customer Data Explorer)
-Analüüsisin customers tabelit, et hinnata kliendiandmete kvaliteeti ning koostada ülevaade andmestikust.
-
-#### Peamised tulemused
-- Kokku 3150 klienti
-- 380 kliendil puudus e-posti aadress
-- Perekonnanimi puudus 0 kliendil
-- 3150 e-posti aadressist oli 2640 unikaalsed, mis viitab duplikaatidele
-- Kliendid olid registreeritud ajavahemikul 2.01.2020 – 27.02.2025
-- Kliendid pärinesid 12 Eesti linnast (Tallinn, Tartu, Narva, Pärnu, Rakvere, Viljandi, Võru, Valga, Paide, Jõhvi, Kuressaare ja Haapsalu)
-
-#### Äriline järeldus
-Leidsin, et kliendiandmetes esineb puuduvaid ja duplikaatseid e-posti aadresse, mis võib mõjutada turunduskampaaniate täpsust ning kliendisuhtlust. Enne analüüside ja kampaaniate tegemist tuleks andmed puhastada ning kasutada ühtset andmesisestuse standardit.
-
-#### AI kasutamine
-Kasutasin AI-d SQL päringute koostamise ja kontrollimise toetamiseks. Kontrollisin kõik tulemused iseseisvalt, võrreldes päringute väljundeid Supabase'i andmebaasis.
-
-#### Peamised õppetunnid
-Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb SQL vaikimisi väärtusi "Tallinn" ja "tallinn" erinevate kirjetena, mis võib moonutada analüüsi tulemusi. Samuti õppisin kasutama COUNT() ja DISTINCT funktsioone andmete kvaliteedi hindamiseks.
-
-#### Failid
-- [**WEEK1_sales_customers_exploration.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2edd6e719d1a7c614f263c25ea5599272f845597/WEEK1_sales_customers_exploration.sql)-- minu SQL päringud
-- [**WEEK1_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e54de9f223daea5405f11b48740e84738bea25ff/WEEK1_results_screenshots.pdf) -- päringute tulemused
-- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
-
-## Week 2 – SQL Data Cleaning: UrbanStyle tooteandmete puhastamine
-Puhastasin UrbanStyle'i tooteandmeid, et parandada andmete kvaliteeti enne müügi- ja laoseisu analüüsi. Keskendusin duplikaatide, NULL-väärtuste ja võimalike formaadivigade leidmisele.
-
-#### Kasutatud SQL teemad
-- Duplikaatide tuvastamine ja sorteerimine (GROUP BY, HAVING, ROW_NUMBER)
-- NULL väärtusted
-- Andmetüüpide kontroll
-
-### Meeskonnatöö - Roll: Tooteandmete puhastaja (Product Data Cleaner)
-Analüüsisin products tabelit ning koostasin puhastamisraporti koos SQL skriptiga.
-
-#### Peamised tulemused
-- Kokku 362 toodet
-- 12 duplikaatset tootenime
-- 0 NULL väärtust toote nimes
-- 0 NULL väärtust kategoorias
-- 0 NULL jaehinnas
-- 0 NULL omahinnas
-- Loogilisi hinnavigu pole
-- 5 tootekategooriat
-
-#### Äriline järeldus
-Tooteandmete kvaliteet oli üldiselt hea, sest kriitilised väljad ei sisaldanud puuduvaid väärtusi. Suurimaks probleemiks olid 12 duplikaatset tootenime, mis võivad põhjustada ebatäpseid müügi-, lao- ja tooteanalüüse. Enne aruannete koostamist tuleks duplikaadid eemaldada või ühtlustada, et iga toode oleks süsteemis esindatud ainult ühe kirjena.
-
-#### AI kasutamine
-Kasutasin AI-d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise toetamiseks. Kontrollisin kõik tulemused iseseisvalt Supabase'i andmebaasis ning testisin päringuid enne muudatuste tegemist testkoopial.
-
-#### Peamised õppetunnid
-- Enne andmete muutmist tuleb alati töötada testtabeliga.
-- ROW_NUMBER() on tõhus viis duplikaatide leidmiseks.
-- Andmete puhastamine on usaldusväärsete analüüside eelduseks.
-  
-#### Failid
-- [**WEEK2_products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/d1aef06b2d1dfef876f832e291e42b119a7535fd/WEEK2_products_cleaning.sql)-- minu SQL päringud
-- [**WEEK2_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eedc1ef905326930734597ddc56347d11676265/WEEK2_results_screenshots.pdf) -- päringute tulemused
-- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
- 
+- Andmete pu
 ## Week 3 – SQL JOINs
 Kasutasin JOIN päringuid, et ühendada müügi-, toote- ja laoseisu andmed ning analüüsida müümata tooteid, populaarsemaid kategooriaid ja inventuuri efektiivsust.
 
