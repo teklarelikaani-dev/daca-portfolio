@@ -21,7 +21,7 @@ Selles portfoolios näitan, kuidas:
 | WEEK 1 | 
 | WEEK 2 | 
 | WEEK 3 | 
-| WEEK 4 | 
+| [**WEEK 4 SQL Aggregation**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7b0380a5c2450343626a4ae1955b176d2acfed6b/SQL%20Aggregation.md) | 
 | WEEK 5 | 
 | WEEK 6 | 
 | WEEK 7 | 
