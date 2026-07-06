@@ -1,7 +1,4 @@
-# SQL Aggregation
-
-Probleem:
-
+## Week 4 – SQL Aggregation
 Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised kanalid toovad kõige rohkem kliente, käivet ja suurima keskmise tellimusväärtuse.
 
 #### Kasutatud SQL teemad
@@ -35,11 +32,11 @@ Ettevõte sai teada, et Google Organic oli kõige efektiivsem turunduskanal, mis
 Kasutasin AI-d CTE ja agregaatpäringute koostamise toetamiseks ning SQL-päringute optimeerimiseks. Kontrollisin tulemused SQL päringute väljundite ja arvutatud näitajate põhjal.
 
 #### Peamised õppetunnid
-Kõik SELECT lauses olevad veerud, mis ei ole agregaatfunktsiooni sees, peavad olema lisatud GROUP BY lausesse.
-CTE muudab keerukad SQL-päringud loetavamaks ja lihtsamini hallatavaks.
-Agregaatfunktsioonid võimaldavad muuta suure andmemahu selgeteks ärinäitajateks.
+- Kõik SELECT lauses olevad veerud, mis ei ole agregaatfunktsiooni sees, peavad olema lisatud GROUP BY lausesse.
+- CTE muudab keerukad SQL-päringud loetavamaks ja lihtsamini hallatavaks.
+- Agregaatfunktsioonid võimaldavad muuta suure andmemahu selgeteks ärinäitajateks.
 
 #### Failid
-WEEK4_marketing_roi.sql-- minu SQL päringud
-WEEK4_results_screenshots -- tulemuste pilt
-Meeskonna Data Landscape slaid
+- [**WEEK4_marketing_roi.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7dc13e865f0dc16f6ae9b4967bf71ae2f4763346/WEEK4_marketing_roi.sql)-- minu SQL päringud
+- [**WEEK4_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/9ea37fce605a8b44fd0e9d4689fbcf6bab5b719d/WEEK4_results_screenshots.pdf) -- tulemuste pilt
+- [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
