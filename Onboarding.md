@@ -21,3 +21,6 @@ Kasutasin ChatGPT-d ja NotebookLM-i seadistusjuhendite mõistmiseks ning võimal
 
 #### Miks see on oluline?
 Korralikult seadistatud töökeskkond võimaldab alustada analüüsi ilma tehniliste takistusteta ning tagab, et projektid on versioonihallatud, reprodutseeritavad ja hõlpsasti jagatavad meeskonnaga.
+                                                                                                               
+                                                                                                                          
+  [**Järgmine WEEK 1**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2688e5b521cb176f0afbf1fa3683e22b0acdb58a/SQL%20Basics.md)
