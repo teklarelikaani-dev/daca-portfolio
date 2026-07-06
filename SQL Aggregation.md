@@ -1,5 +1,5 @@
 ## Week 4 – SQL Aggregation
-Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised kanalid toovad kõige rohkem kliente, käivet ja suurima keskmise tellimusväärtuse.
+ Probleem: CEO vajab juhatuse koosolekuks koondnumbreid. Iga domeen (müük, kliendid, inventuur, turundus) peab andma oma koondandmed. Seekord ei piisa lihtsast SELECT-ist — vaja on GROUP BY, HAVING ja CTE-dega ehitatud ärianalüüse.
 
 #### Kasutatud SQL teemad
 - GROUP BY
@@ -8,7 +8,7 @@ Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised
 - CTE (Common Table Expression)
 
 ### Meeskonnatöö - Roll: Turunduskanalite ROI (Marketing Campaign Effectiveness)
-Analüüsisin tabelite sales, customers ja weblogs andmeid ning koostasin turunduskanalite võrdluse.
+Analüüsisin tabelite sales, customers ja weblogs andmeid, et hinnata, millised kanalid toovad kõige rohkem kliente, käivet ja suurima keskmise tellimusväärtuse.
 
 #### Peamised tulemused
 - Suurim keskmine ostukorv: Instagram Ads – 354 €
