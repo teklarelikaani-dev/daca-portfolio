@@ -40,3 +40,5 @@ Kasutasin AI-d CTE ja agregaatpäringute koostamise toetamiseks ning SQL-päring
 - [**WEEK4_marketing_roi.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7dc13e865f0dc16f6ae9b4967bf71ae2f4763346/WEEK4_marketing_roi.sql)-- minu SQL päringud
 - [**WEEK4_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/9ea37fce605a8b44fd0e9d4689fbcf6bab5b719d/WEEK4_results_screenshots.pdf) -- tulemuste pilt
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/0be8da608489ced4afa9845a2c4c8299adc69b33/Data_Landscape_Week4.pdf)
+
+[**Järgmine Week 5**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/a755f289cdbbe3e3b9b3697ce9bce7525aeddf81/5%20Power%20BI.md)
