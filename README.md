@@ -153,7 +153,7 @@ Kasutasin AI-d erinevate JOIN-tüüpide kirjutamiseks, mõistmiseks ja päringut
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/1ef0426c6e6526395a2ac73ad5b3dcb5185736b4/Data_Landscape_Week3.pdf)
 
 ## Week 4 – SQL Aggregation
-Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised kanalid toovad kõige rohkem kliente, käivet ja suurima keskmise tellimusväärtuse.
+ Probleem: CEO vajab juhatuse koosolekuks koondnumbreid. Iga domeen (müük, kliendid, inventuur, turundus) peab andma oma koondandmed. Seekord ei piisa lihtsast SELECT-ist — vaja on GROUP BY, HAVING ja CTE-dega ehitatud ärianalüüse.
 
 #### Kasutatud SQL teemad
 - GROUP BY
@@ -162,7 +162,7 @@ Analüüsisin UrbanStyle'i turunduskanalite tulemuslikkust, et hinnata, millised
 - CTE (Common Table Expression)
 
 ### Meeskonnatöö - Roll: Turunduskanalite ROI (Marketing Campaign Effectiveness)
-Analüüsisin tabelite sales, customers ja weblogs andmeid ning koostasin turunduskanalite võrdluse.
+Analüüsisin tabelite sales, customers ja weblogs andmeid, et hinnata, millised kanalid toovad kõige rohkem kliente, käivet ja suurima keskmise tellimusväärtuse.
 
 #### Peamised tulemused
 - Suurim keskmine ostukorv: Instagram Ads – 354 €
@@ -173,7 +173,7 @@ Analüüsisin tabelite sales, customers ja weblogs andmeid ning koostasin turund
 - Suurim müügilangus: detsember → jaanuar (−44%)
 
 #### Äriline järeldus
-Leidsin, et Google Organic oli kõige efektiivsem turunduskanal, mis viitab sellele, et orgaaniline nähtavus toob ettevõttele kvaliteetseid kliente väiksema turunduskuluga. Samas Instagram Ads tõi suurima keskmise tellimusväärtusega ostud. TikToki tulemused olid märgatavalt nõrgemad, mistõttu tasuks selle kanali investeeringud üle vaadata või kampaaniaid optimeerida.
+Ettevõte sai teada, et Google Organic oli kõige efektiivsem turunduskanal, mis viitab sellele, et orgaaniline nähtavus toob ettevõttele kvaliteetseid kliente väiksema turunduskuluga. Samas Instagram Ads tõi suurima keskmise tellimusväärtusega ostud. TikToki tulemused olid märgatavalt nõrgemad, mistõttu tasuks selle kanali investeeringud üle vaadata või kampaaniaid optimeerida.
 
 #### Soovitused
 - Suurendada investeeringuid Google Organic kanalisse.
