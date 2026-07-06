@@ -34,3 +34,5 @@ Kasutasin AI-d, ROW_NUMBER() ja duplikaatide leidmise SQL-päringute koostamise 
 - [**WEEK2_products_cleaning.sql**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/d1aef06b2d1dfef876f832e291e42b119a7535fd/WEEK2_products_cleaning.sql)-- minu SQL päringud
 - [**WEEK2_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8eedc1ef905326930734597ddc56347d11676265/WEEK2_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/396ec93e896f27c3a9ce931d103dd75b9b423381/Data_Landscape_Week2.pdf)
+
+[**Järgmine Week 3**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/8c2772a12b26c19e8777655dc4a26248acfe5e03/3%20SQL%20JOINs.md)
