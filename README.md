@@ -14,6 +14,19 @@ Selles portfoolios näitan, kuidas:
 - ehitasin automatiseeritud Pythoni andmepipeline'i, mis uuendab KPI-d ja visualiseeringud automaatselt Supabase'i andmete põhjal;
 - koostasin RFM kliendisegmendid ning pakkusin andmetel põhinevaid ärisoovitusi.
 
+# UrbanStyle projekt nädalate kaupa
+| |
+|---| 
+| WEEK 0 | 
+| WEEK 1 | 
+| WEEK 2 | 
+| WEEK 3 | 
+| WEEK 4 | 
+| WEEK 5 | 
+| WEEK 6 | 
+| WEEK 7 | 
+| WEEK 8 |
+
 #### Meeskonnatöö: [**Sales Analytics Team**](https://github.com/kaarusdoris-a11y/Sales-Analytics)
 
 # UrbanStyle projekt nädalate kaupa
