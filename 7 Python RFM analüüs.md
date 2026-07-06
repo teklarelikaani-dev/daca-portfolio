@@ -1,5 +1,5 @@
 ## Week 7 – Python & Pandas: UrbanStyle RFM kliendianalüüs
-Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency, Monetary) analüüsi, et segmenteerida kliendid nende ostukäitumise põhjal ning teha soovitusi turundus- ja kliendisuhete parandamiseks. Ühendasin selleks sales (10118 rida ja 12 veergu) ja customers (3150 rida ja 9 veergu) tabelid. Peale puhastamist 8950 rida ja 20 veergu. 
+Probleem: Ettevõte vajab individuaalset customer-level analüüsi, et saata erinevaid e-maile VIP-dele ja riskiklientidele. 
 
 #### Kasutatud tehnoloogiad
 - Python
@@ -7,6 +7,7 @@ Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency
 - Supabase (PostgreSQL)
 
 #### RFM analüüs
+Koostasin Pythoni ja Pandase abil UrbanStyle'i klientide RFM (Recency, Frequency, Monetary) analüüsi, et segmenteerida kliendid nende ostukäitumise põhjal ning teha soovitusi turundus- ja kliendisuhete parandamiseks. Ühendasin selleks sales (10118 rida ja 12 veergu) ja customers (3150 rida ja 9 veergu) tabelid. Peale puhastamist 8950 rida ja 20 veergu.
 
 | Kliendisegment | Soovitused |
 | :--- | :--- |
