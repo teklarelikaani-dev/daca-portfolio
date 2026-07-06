@@ -17,8 +17,8 @@ Selles portfoolios näitan, kuidas:
 # UrbanStyle projekt nädalate kaupa
 | |
 |---| 
-| WEEK 0 | 
-| WEEK 1 | 
+| [**WEEK 0 Onboarding**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/5e4603fedd2c270bdb9c5514b663618e5319ad76/Onboarding.md) | 
+| [**WEEK 1 SQL Basics**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2688e5b521cb176f0afbf1fa3683e22b0acdb58a/SQL%20Basics.md) | 
 | WEEK 2 | 
 | WEEK 3 | 
 | [**WEEK 4 SQL Aggregation**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/7b0380a5c2450343626a4ae1955b176d2acfed6b/SQL%20Aggregation.md) | 
@@ -29,31 +29,7 @@ Selles portfoolios näitan, kuidas:
 
 #### Meeskonnatöö: [**Sales Analytics Team**](https://github.com/kaarusdoris-a11y/Sales-Analytics)
 
-# UrbanStyle projekt nädalate kaupa
 
-## Week 0 – Onboarding: Töökeskkonna seadistamine
-Seadistasin andmeanalüütiku tööks vajalikud tööriistad ning lõin keskkonna, kus saan hallata andmeid, kirjutada SQL päringuid, visualiseerida tulemusi ja versioonihaldust kasutada.
-
-#### Seadistatud tööriistad
-- Git & GitHub – versioonihaldus ja projektide haldamine
-- Supabase – PostgreSQL andmebaas
-- VS Code – arenduskeskkond
-- Python – andmeanalüüs ja automatiseerimine
-- Power BI – andmete visualiseerimine
-- NotebookLM – õppematerjalide organiseerimine ja kokkuvõtete tegemine
-
-#### Mida õppisin
-- Mõistsin, kuidas erinevad tööriistad moodustavad ühe andmeanalüüsi töövoo.
-- Õppisin kasutama GitHubi projektide versioonihalduseks ja muudatuste jälgimiseks.
-- Sain ühenduse Power BI ja Supabase'i vahel, et kasutada andmebaasi andmeid visualiseerimiseks.
-- Seadistasin Pythoni keskkonna tulevaste andmeanalüüsi projektide jaoks.
-- Õppisin, kui oluline on hästi organiseeritud töökeskkond efektiivseks analüüsiks.
-
-#### AI kasutamine
-Kasutasin ChatGPT-d ja NotebookLM-i seadistusjuhendite mõistmiseks ning võimalike vigade lahendamiseks. Kontrollisin, et kõik tööriistad töötasid omavahel korrektselt (GitHub, Supabase, Power BI ja Python).
-
-#### Miks see on oluline?
-Korralikult seadistatud töökeskkond võimaldab alustada analüüsi ilma tehniliste takistusteta ning tagab, et projektid on versioonihallatud, reprodutseeritavad ja hõlpsasti jagatavad meeskonnaga.
 
 ## Week 1 – SQL Basics: UrbanStyle andmete uurimine
 Tutvusin UrbanStyle'i kliendiandmetega ning õppisin kasutama SQL päringuid andmete filtreerimiseks, otsimiseks ja kvaliteedi hindamiseks.
