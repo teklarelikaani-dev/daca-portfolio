@@ -31,4 +31,4 @@ Andmete sisestamisel on oluline kasutada ühtset vormingut. Näiteks käsitleb S
 - [**WEEK1_results_screenshots**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e54de9f223daea5405f11b48740e84738bea25ff/WEEK1_results_screenshots.pdf) -- päringute tulemused
 - [**Meeskonna Data Landscape slaid**](https://github.com/kaarusdoris-a11y/Sales-Analytics/blob/2c2bdfb12560f9cf51af47be433ac27316988370/Data_Landscape_Week1.pdf)
 
-[**Järgmine Week 2**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/aafaea18590e92ec95334792e5a437e546bfb261/2%20SQL%20Data%20Cleaning.md)
+[**Järgmine Week 2**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/e67be1a27a3ace40b1993edcfe5ce0030d7311cf/2%20SQL%20Data%20Cleaning.md)
