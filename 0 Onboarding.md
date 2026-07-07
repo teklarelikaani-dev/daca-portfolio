@@ -23,4 +23,4 @@ Kasutasin ChatGPT-d ja NotebookLM-i seadistusjuhendite mõistmiseks ning võimal
 Korralikult seadistatud töökeskkond võimaldab alustada analüüsi ilma tehniliste takistusteta ning tagab, et projektid on versioonihallatud, reprodutseeritavad ja hõlpsasti jagatavad meeskonnaga.
                                                                                                                
                                                                                                                           
-  [**Järgmine WEEK 1**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/2688e5b521cb176f0afbf1fa3683e22b0acdb58a/SQL%20Basics.md)
+  [**Järgmine WEEK 1**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/a6d2f92efda9fb1ffba7b1e306ddafef190b6989/1%20SQL%20Basics.md)
