@@ -19,7 +19,7 @@ Selles portfoolios näitan, kuidas:
 |---| 
 | [**WEEK 0 Onboarding**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/671d471828a26044323cb44636f818b07ad58100/0%20Onboarding.md) | 
 | [**WEEK 1 SQL Basics**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/671d471828a26044323cb44636f818b07ad58100/1%20SQL%20Basics.md) | 
-| [**WEEK 2 SQL Data Cleaning**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/671d471828a26044323cb44636f818b07ad58100/2%20SQL%20Data%20Cleaning.md) | 
+| [**WEEK 2 SQL Data Cleaning**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/9e35ca46209312713ee0b52b4870e2ec0c4bd62a/2%20SQL%20Data%20Cleaning.md) | 
 | [**WEEK 3 SQL JOINs**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/671d471828a26044323cb44636f818b07ad58100/3%20SQL%20JOINs.md) | 
 | [**WEEK 4 SQL Aggregation**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/671d471828a26044323cb44636f818b07ad58100/4%20SQL%20Aggregation.md) | 
 | [**WEEK 5 Power BI**](https://github.com/teklarelikaani-dev/daca-portfolio/blob/671d471828a26044323cb44636f818b07ad58100/5%20Power%20BI.md) | 
